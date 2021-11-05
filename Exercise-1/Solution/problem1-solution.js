@@ -9,6 +9,7 @@ function Person(name, surname, age, gender) {
   this.fullName = function () {
     return (this.name + ' ' + this.surname);
   }
+  
 }
 
 let tatia1234 = new Person("Tatia", "Nikolishvili", 21, "W");
